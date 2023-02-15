@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>github拉取hexo相关问题</title>
+      <link href="/2022/04/12/github%E6%8B%89%E5%8F%96hexo%E7%9B%B8%E5%85%B3%E9%97%AE%E9%A2%98/"/>
+      <url>/2022/04/12/github%E6%8B%89%E5%8F%96hexo%E7%9B%B8%E5%85%B3%E9%97%AE%E9%A2%98/</url>
+      
+        <content type="html"><![CDATA[<h2 id="github拉取hexo相关问题"><a href="#github拉取hexo相关问题" class="headerlink" title="github拉取hexo相关问题"></a>github拉取hexo相关问题</h2><p>解决从github上面拉取hexo博客项目，拉取失败，拉取成功后hexo命令失效的问题。</p><h2 id="无法从github拉取项目"><a href="#无法从github拉取项目" class="headerlink" title="无法从github拉取项目"></a>无法从github拉取项目</h2><h3 id="出现remote-Repository-not-found"><a href="#出现remote-Repository-not-found" class="headerlink" title="出现remote: Repository not found"></a>出现remote: Repository not found</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span>  git@github.com:用户名/仓库名.git</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">F:\myblog\MyBlog\blog&gt;hexo s</span><br><span class="line">ERROR Cannot find module <span class="string">&#x27;hexo&#x27;</span> from <span class="string">&#x27;F:\myblog\MyBlog\blog&#x27;</span></span><br><span class="line">ERROR Local hexo loading failed <span class="keyword">in</span> F:\myblog\MyBlog\blog</span><br><span class="line">ERROR Try running: <span class="string">&#x27;rm -rf node_modules &amp;&amp; npm install --force&#x27;</span></span><br></pre></td></tr></table></figure><h3 id="修复hexo-util命令"><a href="#修复hexo-util命令" class="headerlink" title="修复hexo-util命令"></a>修复hexo-util命令</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">$ npm install hexo-util --save</span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> Hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Git </tag>
+            
+            <tag> Hexo </tag>
+            
+            <tag> Blog </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Tags test</title>
+      <link href="/2021/02/15/Draft/Tags-test/"/>
+      <url>/2021/02/15/Draft/Tags-test/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> Spring </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Git </tag>
+            
+            <tag> 框架 </tag>
+            
+            <tag> 微服务 </tag>
+            
+            <tag> 设计模式 </tag>
+            
+            <tag> go </tag>
+            
+            <tag> 安装 </tag>
+            
+            <tag> 整理 </tag>
+            
+            <tag> 容器化 </tag>
+            
+            <tag> 原理 </tag>
+            
+            <tag> 数据结构与算法 </tag>
+            
+            <tag> 消息队列 </tag>
+            
+            <tag> AOP </tag>
+            
+            <tag> Docker </tag>
+            
+            <tag> JQuery </tag>
+            
+            <tag> K8s </tag>
+            
+            <tag> MySQL </tag>
+            
+            <tag> Oracle </tag>
+            
+            <tag> SQL </tag>
+            
+            <tag> Vue </tag>
+            
+            <tag> 中间件 </tag>
+            
+            <tag> 分布式 </tag>
+            
+            <tag> MongoDB </tag>
+            
+            <tag> 搜索引擎 </tag>
+            
+            <tag> 面向对象 </tag>
+            
+            <tag> 反射 </tag>
+            
+            <tag> 服务器 </tag>
+            
+            <tag> 集群 </tag>
+            
+            <tag> Redis </tag>
+            
+            <tag> 缓存 </tag>
+            
+            <tag> SpringBoot </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>第一篇博客</title>
+      <link href="/2020/05/11/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E5%AD%97/"/>
+      <url>/2020/05/11/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E5%AD%97/</url>
+      
+        <content type="html"><![CDATA[<p>你好，世界</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Start </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Spring </tag>
+            
+            <tag> Java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
